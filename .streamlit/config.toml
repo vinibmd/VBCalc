@@ -1,0 +1,16 @@
+[client]
+
+# Controls whether to display the default sidebar page navigation in a
+# multi-page app. This only applies when app's pages are defined by the
+# `pages/` directory.
+# Default: true
+showSidebarNavigation = false
+
+[theme]
+# base="dark"
+backgroundColor="#0a1128"
+primaryColor="#EF233C"
+secondaryBackgroundColor="034078"
+textColor="#fefcfb"
+# font="sans serif"
+
