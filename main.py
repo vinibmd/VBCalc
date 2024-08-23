@@ -34,7 +34,7 @@ st.title("Bem vindo(a)! :smile:")
 st.header("É um prazer ter você por aqui!")
 
 st.markdown("""É com muita alegria que apresento para vocês o **VB Calc.1.0**, um aplicação
-multiplataforma (desktop, iOS e Android) criada para facilita a vida de quem traballha em emergência e UTI!
+multiplataforma (desktop, iOS e Android) criada para facilitar a vida de quem traballha em emergência e UTI!
 Os conteúdos podem ser acessados na **barra lateral esquerda**.""")
 st.markdown("Ao utilizar a plataforma, você **CONCORDA** e **ACEITA** os **Termos de Uso**.")
 st.markdown("### **Como utilizar a plataforma:**")
