@@ -34,19 +34,12 @@ st.title("Bem vindo(a)! :smile:")
 st.header("É um prazer ter você por aqui!")
 
 st.markdown("""É com muita alegria que apresento para vocês o **VB Calc.1.0**, um aplicação
-multiplataforma (desktop, iOS e Android), desenvolvida por mim ([Dr. Vinícius Beleze](https://instagram.com/drviniciusbeleze))!
-
-Fique a vontade para utilizar a plataforma na sua prática clínica diária!
-
+multiplataforma (desktop, iOS e Android) criada para facilita a vida de quem traballha em emergência e UTI!
 Os conteúdos podem ser acessados na **barra lateral esquerda**.""")
 st.markdown("Ao utilizar a plataforma, você **CONCORDA** e **ACEITA** os **Termos de Uso**.")
+st.markdown("### **Como utilizar a plataforma:**")
 
-st.markdown("Segue um **Tutorial em Vídeo** sobre como utilizar a plataforma:")
-
-st.video("https://www.youtube.com/watch?v=lKSZnZggcto&list=RDlKSZnZggcto&start_radio=1")
-     
-st.markdown("Se houver qualquer outra dúvida quanto a utilização da plataforma, você pode acessar a página de **Tutorial**.")
-
+st.video("https://youtu.be/09tC27DrolY?si=Z0XZAeI8OaxBsXox")
 st.markdown("""
 Agora, se você está gostando da plataforma, que tal ajudar a continuar e manter esse
 projeto sempre ativo e grauito? [Apoie o VB Calc.](https://biolivre.com.br/vbcardiologia)
