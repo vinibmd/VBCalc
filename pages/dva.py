@@ -40,6 +40,7 @@ medicamentos = {
     "Dobutamina 4 mg/mL": {"concentracao": 4 * 1000, "dose_hab": "2,5 a 20", "limites": (2.5, 20)},
     "Dopamina 1 mg/mL": {"concentracao": 1 * 1000, "dose_hab": "2 a 20", "limites": (2, 20)},
     "Dopamina 2 mg/mL": {"concentracao": 2 * 1000, "dose_hab": "2 a 20", "limites": (2, 20)},
+    "Esmolol 10 mg/mL": {"concentracao": 10 * 1000, "dose_hab": "50 a 300", "limites": (50, 300)},
     "Nitroprussiato 0,2 mg/mL": {"concentracao": 0.2 * 1000, "dose_hab": "0,25 a 10", "limites": (0.25, 10)},
     "Noradrenalina 0,08 mg/mL": {"concentracao": 0.08 * 1000, "dose_hab": "0,1 a 0,5", "limites": (0.1, 0.5)},
     "Noradrenalina 0,16 mg/mL": {"concentracao": 0.16 * 1000, "dose_hab": "0,1 a 0,5", "limites": (0.1, 0.5)},

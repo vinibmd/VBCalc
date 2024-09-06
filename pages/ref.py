@@ -58,6 +58,14 @@ st.sidebar.markdown("Desenvolvido por **[Dr. Vinícius Beleze](https://instagram
 5. Shehabi Y, Ruettimann U, Adamson H, Innes R, Ickeringill M. Dexmedetomidine infusion for more than 24 hours in critically ill patients: sedative and cardiovascular effects. *Intensive Care Med*. 2004;30(12):2188-2196. doi:10.1007/s00134-004-2417-z [PubMed [15338124](https://www.uptodate.com/contents/dexmedetomidine-drug-information/abstract-text/15338124/pubmed)]
 6. Shehabi Y, Howe BD, Bellomo R, et al; ANZICS Clinical Trials Group and the SPICE III Investigators. Early sedation with dexmedetomidine in critically ill patients. *N Engl J Med*. 2019;380(26):2506-2517. doi:10.1056/NEJMoa1904710 [PubMed [31112380](https://www.uptodate.com/contents/dexmedetomidine-drug-information/abstract-text/31112380/pubmed)]
 
+## Esmolol:
+
+1. Whelton PK, Carey RM, Aronow WS, et al. 2017 ACC/AHA/AAPA/ABC/ACPM/AGS/APhA/ASH/ASPC/NMA/PCNA guideline for the prevention, detection, evaluation, and management of high blood pressure in adults: a report of the American College of Cardiology/American Heart Association Task Force on clinical practice guidelines. Hypertension. 2018;71(6):e13-e115. doi:10.1161/HYP.0000000000000065 [PubMed 29133356]
+2. Marik PE, Varon J. Hypertensive crises: challenges and management. Chest. 2007;131(6):1949-1962. doi:10.1378/chest.06-2490 [PubMed 17565029]
+3. Marik PE, Rivera R. Hypertensive emergencies: an update. Curr Opin Crit Care. 2011;17(6):569-580. doi:10.1097/MCC.0b013e32834cd31d [PubMed 21986463]
+4. Peixoto AJ. Acute severe hypertension. N Engl J Med. 2019;381(19):1843-1852. doi:10.1056/NEJMcp1901117 [PubMed 31693807]
+5. Varon J. Treatment of acute severe hypertension: current and newer agents. Drugs. 2008;68(3):283-297. doi:10.2165/00003495-200868030-00003 [PubMed 18257607]
+
 ## Fentanil:
 
 1. Pandharipande P, McGrane S. Pain control in the critically ill adult patient. Post TW, ed. UpToDate. Waltham, MA: UpToDate Inc. [http://www.uptodate.com](http://www.uptodate.com/). Accessed February 13, 2023.

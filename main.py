@@ -37,6 +37,14 @@ st.markdown("""É com muita alegria que apresento para vocês o **VB Calc.1.0**,
 multiplataforma (desktop, iOS e Android) criada para facilitar a vida de quem traballha em emergência e UTI!
 Os conteúdos podem ser acessados na **barra lateral esquerda**.""")
 st.markdown("Ao utilizar a plataforma, você **CONCORDA** e **ACEITA** os **Termos de Uso**.")
+
+st.markdown("### **O que há de novo:**")
+st.markdown("#### **06/09/2024**:")
+st.markdown("""
+    - Adicionado Esmolol 10 mg/mL na aba "DVA" e as respectivas referências bibliográficas.
+            """
+            )
+
 st.markdown("### **Como utilizar a plataforma:**")
 
 st.video("https://youtu.be/09tC27DrolY?si=Z0XZAeI8OaxBsXox")
