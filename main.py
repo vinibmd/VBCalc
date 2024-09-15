@@ -15,17 +15,18 @@ logo_vbcalc2 = "imagens/VBCalc_logo_ext.png"
 
 # st.sidebar.image(logo_vbcalc, use_column_width=True)
 st.sidebar.image(logo_vbcalc2, use_column_width=True)
-
 st.sidebar.link_button("Apoie o VB Calc.", "https://biolivre.com.br/vbcardiologia", type="primary", use_container_width=True)
 with st.sidebar:
     st.page_link("main.py", label="Home")
     st.page_link("pages/sedacao.py", label="Analgesia e Sedação")
     st.page_link("pages/bloqueadores.py", label="Bloq. Neuromuscular")
     st.page_link("pages/dva.py", label="Drogas Vasoativas")
+    st.page_link("pages/ecg.py", label="ECG")
     st.page_link("pages/nitratos.py", label="Nitratos")
     st.page_link("pages/ref.py", label="Referências")
     st.page_link("pages/tutorial.py", label="Tutorial")
     st.page_link("pages/termos.py", label="Termos de Uso")
+
 st.sidebar.markdown("---")
 st.sidebar.markdown("Desenvolvido por **[Dr. Vinícius Beleze](https://instagram.com/drviníciusbeleze)**")
 
@@ -42,6 +43,11 @@ st.markdown("### **O que há de novo:**")
 st.markdown("#### **06/09/2024**:")
 st.markdown("""
     - Adicionado Esmolol 10 mg/mL na aba "DVA" e as respectivas referências bibliográficas.
+            """
+            )
+st.markdown("#### **15/09/2024**:")
+st.markdown("""
+    - Adicionado a seção "ECG" com fórmulas para cáculo de QT corrigido e localização de via acessória em pacientes com WPW.
             """
             )
 

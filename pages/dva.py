@@ -5,6 +5,7 @@ st.set_page_config(
     page_icon=":syringe:"
 )
 
+######################
 logo_ext_color = "imagens/logo_extended_color.png"
 logo_ext_bw = "imagens/logo_extended_bw.png"
 logo_only_color = "imagens/logo_only_color.png"
@@ -14,17 +15,18 @@ logo_vbcalc2 = "imagens/VBCalc_logo_ext.png"
 
 # st.sidebar.image(logo_vbcalc, use_column_width=True)
 st.sidebar.image(logo_vbcalc2, use_column_width=True)
-
 st.sidebar.link_button("Apoie o VB Calc.", "https://biolivre.com.br/vbcardiologia", type="primary", use_container_width=True)
 with st.sidebar:
     st.page_link("main.py", label="Home")
     st.page_link("pages/sedacao.py", label="Analgesia e Sedação")
     st.page_link("pages/bloqueadores.py", label="Bloq. Neuromuscular")
     st.page_link("pages/dva.py", label="Drogas Vasoativas")
+    st.page_link("pages/ecg.py", label="ECG")
     st.page_link("pages/nitratos.py", label="Nitratos")
     st.page_link("pages/ref.py", label="Referências")
     st.page_link("pages/tutorial.py", label="Tutorial")
     st.page_link("pages/termos.py", label="Termos de Uso")
+    ###########################
 st.sidebar.markdown("---")
 st.sidebar.markdown("Desenvolvido por **[Dr. Vinícius Beleze](https://instagram.com/drviníciusbeleze)**")
 
