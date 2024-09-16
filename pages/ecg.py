@@ -61,8 +61,8 @@ with qtc:
     )
 
 with loc_via:
-    st.header('Calculadora de QTc:')
-    st.subheader('Escolha a Fórmula:')
+    st.header('Localização da Via Acessória:')
+    st.subheader('Algoritmo EASY-WPW:')
     # Definição dos selecionáveis.
     st.markdown("#### Polaridade:")
     polaridade_v1 = st.radio("**Polaridade em V1**",
