@@ -15,7 +15,7 @@ def barra_lateral ():
     logo_vbcalc = "imagens/VBCalc_logo.png"
     logo_vbcalc2 = "imagens/VBCalc_logo_ext.png"
 
-    st.sidebar.image(logo_vbcalc2, use_column_width=True)
+    st.sidebar.image(logo_vbcalc2, use_container_width=True)
     st.sidebar.link_button("Apoie o VB Calc.", "https://biolivre.com.br/vbcardiologia", type="primary", use_container_width=True)
     with st.sidebar:
         st.page_link("main.py", label="Home")
