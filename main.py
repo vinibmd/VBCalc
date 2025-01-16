@@ -27,6 +27,7 @@ def barra_lateral ():
         st.page_link("pages/ref.py", label="Referências")
         st.page_link("pages/tutorial.py", label="Tutorial")
         st.page_link("pages/termos.py", label="Termos de Uso")
+        st.page_link("pages/diversos.py", label="Calculadoras Diversas")
 
 barra_lateral()
 
