@@ -43,8 +43,8 @@ with imc_tab:
     
     # Botões
     col1, col2 = st.columns(2)  # Criar duas colunas para posicionar os botões
-    calcular = col1.button("Calcular")
-    limpar = col2.button("Limpar")
+    calcular = col1.button("Calcular", type="primary", use_container_width=True)
+    limpar = col2.button("Limpar", type="secondary", use_container_width=True)
 
     # Lógica dos botões
     if calcular:
@@ -52,7 +52,17 @@ with imc_tab:
             altura_metros = altura / 100  # Converter altura para metros
             imc_valor = peso / (altura_metros ** 2)  # Calcular IMC
             st.subheader('IMC:')
-            st.write(f'**{imc_valor:.2f}**')  # Mostrar IMC com 2 casas decimais
+            st.write(f'##### **{imc_valor:.2f}**')  # Mostrar IMC com 2 casas decimais
+            if imc_valor < 25:
+                st.write('##### :green[IMC normal]')
+            elif imc_valor >= 25 and imc_valor < 30:
+                st.write('##### :orange[Sobrepeso]')
+            elif imc_valor >= 30 and imc_valor < 35:
+                st.write('##### :red[Obesidade Grau I]')
+            elif imc_valor >= 35 and imc_valor < 40:
+                st.write('##### :red[Obesidade Grau II]')
+            else:
+                st.write('##### :red[Obesidade Grau III]')
         else:
             st.warning("Por favor, insira valores válidos para altura e peso.")
 
