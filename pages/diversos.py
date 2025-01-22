@@ -71,3 +71,30 @@ with imc_tab:
         st.session_state["Altura"] = 0
         st.session_state["Peso"] = 0.0
         st.experimental_rerun()  # Recarrega a página para atualizar os inputs
+with ckd:
+    # Inputs de idade, sexo e creatinina
+    st.subheader('Idade:')
+    idade = st.number_input(
+        "Idade", 
+        value=0, 
+        placeholder="Idade em anos...", 
+        min_value=0, 
+        max_value=100, 
+        label_visibility='collapsed'
+    )
+    st.subheader('Creatinina (mg/dL):')
+    peso = st.number_input(
+        "Creatinina", 
+        value=0.0, 
+        placeholder="Valor de creatinina...", 
+        min_value=0.0, 
+        max_value=10.0, 
+        label_visibility='collapsed', 
+        step=0.1, 
+        format="%.1f"
+    )
+    
+    # Botões
+    col1, col2 = st.columns(2)  # Criar duas colunas para posicionar os botões
+    calcular = col1.button("Calcular", type="primary", use_container_width=True)
+    limpar = col2.button("Limpar", type="secondary", use_container_width=True)
